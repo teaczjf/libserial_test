@@ -1,0 +1,11 @@
+prefix=/home/lkt/Soft_packet/libserial/libserial_arm
+exec_prefix=/home/lkt/Soft_packet/libserial/libserial_arm
+libdir=/home/lkt/Soft_packet/libserial/libserial_arm/lib
+includedir=/home/lkt/Soft_packet/libserial/libserial_arm/include
+
+Name: libserial
+Description: C++ Serial port library
+Version: 1.0.0
+Libs: -L${libdir} -lserial
+Cflags: -I${includedir}
+
